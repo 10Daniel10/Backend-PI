@@ -2,13 +2,13 @@ package com.hoteles.hoteles.Entities;
 
 import lombok.Getter;
 import lombok.Setter;
-
 import javax.persistence.*;
 
 @Entity
 @Table(name = "categories")
 @Getter
 @Setter
+
 public class Category {
 
     @Id
@@ -24,5 +24,4 @@ public class Category {
 
     @Column(name = "image_url")
     private String imageUrl;
-
 }
